@@ -2,6 +2,7 @@ body {
 justify-content: center;
 flex-wrap: wrap;
 text-align: center;
+position: relative;
 }
 
 img.dog {
@@ -13,11 +14,12 @@ opacity: 50%;
 div.title {
   background-color: #ffd399;
   justify-content: left;
+  border: solid #ffffff 4px;
   border-radius: 0 30px 30px 0;
   padding-right: 20px;
   padding-left: 100px;
   position: absolute;
-  top: 30%;
+  top: 25%;
   font-size: 30px;
   font-size: 2vw;
 }
@@ -34,6 +36,7 @@ p.credits {
   background-color: #5e782a;
   top: 0px;
   position: sticky;
+  /*z-index = defines the order of css elements*/
   z-index: 1;
   padding: 30px;
 }
@@ -48,29 +51,28 @@ p.credits {
 }
 
 div.banner {
+  /*everything in the banner, including arrow is relative to each other.*/
   position: relative;
 }
 
 img.arrow {
   position: absolute;
-  top: 700px;
+  top: 60%;
+  right: 5%;
   width:30%;
 }
 
-.card {
-  padding: 2px 16px;
-}
-
-.category{
+.subtitle3{
   margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #ffd399;
   color: #124494;
   justify-content: center;
 }
 
 p{
   font-size: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
   padding-bottom: 50;
   font-family: sans-serif;
 }
@@ -80,6 +82,8 @@ p.credits {
 }
 
 div.grid-2-columns {
-  margin-top: 400px;
+  margin-top: 10%;
+  margin-left: 5%;
+  grid-gap: 10%;
   display: flex;
 }
