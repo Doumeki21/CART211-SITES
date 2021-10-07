@@ -1,0 +1,78 @@
+
+body{
+  text-align: center;
+}
+
+img.dog {
+margin: 30px;
+width: 821px;
+height: 460px;
+border-radius: 0 300px;
+border: solid 2px orange;
+}
+
+img.arrow{
+  width: 50px;
+  height: 50px;
+}
+p{
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 50;
+  font-family: sans-serif;
+}
+
+.category{
+  margin-top: 30px;
+  color: #124494;
+  justify-content: center;
+}
+
+.subtitle1{
+  color: #5e782a;
+}
+
+.title{
+  margin-left: 400px;
+  margin-right: 400px;
+  border: solid 5px orange;
+  padding: 20px;
+  justify-content: center;
+}
+
+.container{
+  justify-content: center;
+}
+
+a{
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ffbf6b;
+  font-family: sans-serif;
+}
+
+ul{
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+strong{
+  background-color: ;
+}
+
+.subtitle2{
+  color: #124494;
+  text-align: left;
+  background-color: #d2e8a5;
+}
+
+div {
+  margin-bottom: 50px;
+}
