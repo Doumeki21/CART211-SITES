@@ -4,24 +4,6 @@ flex-wrap: wrap;
 text-align: center;
 }
 
-#navbar {
-  overflow: hidden;
-  background-color: #5e782a;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px;
-  size: 30px;
-}
-
-div.banner {
-  position: relative;
-}
-
 img.dog {
 width: 100%;
 height: 100%;
@@ -47,9 +29,32 @@ p.credits {
   font-family: sans-serif;
 }
 
+#navbar {
+  overflow: hidden;
+  background-color: #5e782a;
+  top: 0px;
+  position: sticky;
+  z-index: 1;
+  padding: 30px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  font-size: 30px;
+}
+
+div.banner {
+  position: relative;
+}
+
 img.arrow {
   position: absolute;
-  font-size: 10px;
+  top: 700px;
+  width:30%;
 }
 
 .card {
@@ -68,4 +73,13 @@ p{
   margin-right: 200px;
   padding-bottom: 50;
   font-family: sans-serif;
+}
+
+p.credits {
+  margin-left: auto;
+}
+
+div.grid-2-columns {
+  margin-top: 400px;
+  display: flex;
 }
