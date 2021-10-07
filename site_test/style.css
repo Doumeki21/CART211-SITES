@@ -1,6 +1,7 @@
 body {
 justify-content: center;
 flex-wrap: wrap;
+text-align: center;
 }
 
 #navbar {
@@ -14,6 +15,7 @@ flex-wrap: wrap;
   color: #ffffff;
   text-align: center;
   padding: 14px;
+  size: 30px;
 }
 
 div.banner {
@@ -42,5 +44,28 @@ p.credits {
   bottom: 10px;
   left: 16px;
   position: absolute;
+  font-family: sans-serif;
+}
+
+img.arrow {
+  position: absolute;
+  font-size: 10px;
+}
+
+.card {
+  padding: 2px 16px;
+}
+
+.category{
+  margin-top: 30px;
+  color: #124494;
+  justify-content: center;
+}
+
+p{
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 50;
   font-family: sans-serif;
 }
