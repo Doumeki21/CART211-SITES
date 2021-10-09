@@ -1,14 +1,14 @@
 body {
-justify-content: center;
-flex-wrap: wrap;
-text-align: center;
-position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
 }
 
 img.dog {
-width: 100%;
-height: 100%;
-opacity: 50%;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
 }
 
 div.title {
@@ -22,6 +22,10 @@ div.title {
   top: 25%;
   font-size: 30px;
   font-size: 2vw;
+}
+
+.title h2 {
+  font-size: 40px;
 }
 
 p.credits {
@@ -47,8 +51,9 @@ p.credits {
   display: block;
   color: #ffffff;
   text-align: center;
-  padding: 14px;
-  font-size: 30px;
+  padding: 30px;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 div.banner {
@@ -56,14 +61,22 @@ div.banner {
   position: relative;
 }
 
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
 img.arrow {
   position: absolute;
   top: 60%;
   right: 5%;
-  width:30%;
+  width: 30%;
 }
 
-.subtitle3{
+.subtitle {
   margin-top: 30px;
   border-radius: 20px;
   padding: 10px;
@@ -88,8 +101,4 @@ div.grid-container {
   margin-top: 10%;
   margin-left: 2%;
   margin-right: 2%;
-}
-
-.button-notes {
-
 }
