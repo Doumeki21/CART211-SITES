@@ -18,8 +18,13 @@
   font-family: 'Bebas Neue', cursive;
 }
 
+a:hover {
+  background-color: #ff968f;
+}
+
 div.grid-container {
   display: grid;
+  flex-wrap: wrap;
   grid-template-columns: auto auto;
   grid-gap: 4%;
   margin-top: 5%;
@@ -75,4 +80,9 @@ a.return {
   padding: 30px;
   border-radius: 50px;
   background-color: #ffd399;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a.return:hover {
+  background-color: #ff968f;
 }

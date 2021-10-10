@@ -24,10 +24,6 @@ div.title {
   font-size: 2vw;
 }
 
-.title h2 {
-  font-size: 40px;
-}
-
 p.credits {
   bottom: 10px;
   left: 16px;
@@ -54,6 +50,10 @@ p.credits {
   padding: 30px;
   font-size: 50px;
   font-family: 'Bebas Neue', cursive;
+}
+
+a:hover {
+  background-color: #ff968f;
 }
 
 div.banner {
@@ -95,6 +95,7 @@ p.answer {
 }
 
 div.grid-container {
+  flex-wrap: wrap;
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 4%;
