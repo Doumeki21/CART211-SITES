@@ -68,17 +68,13 @@ h3 {
   padding-top: 20px;
 }
 
-ul {
+p.answer {
   padding-left: 5%;
   padding-right: 5%;
-  text-align: left;
-  font-size: 23px;
+  text-indent: 10%;
+  text-align: justify;
+  font-size: 25px;
   font-family: sans-serif;
-  margin-bottom: 30px;
-}
-
-li {
-  padding-bottom: 20px;
 }
 
 a.return {
