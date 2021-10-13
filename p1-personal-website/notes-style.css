@@ -1,0 +1,88 @@
+#navbar {
+  overflow: hidden;
+  background-color: #5e782a;
+  top: 0px;
+  position: sticky;
+  /*z-index = defines the order of css elements*/
+  z-index: 1;
+  padding: 30px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a:hover {
+  background-color: #ff968f;
+}
+
+div.grid-container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto;
+  grid-gap: 4%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.subtitle {
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #ffd399;
+  color: #124494;
+}
+
+h1 {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 5%;
+  text-align: center;
+  border: solid 5px orange;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+}
+
+h3 {
+  text-decoration: underline;
+  padding-top: 20px;
+}
+
+ul {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+a.return {
+  font-size: 25px;
+  margin-top: 5%;
+  padding: 30px;
+  border-radius: 50px;
+  background-color: #ffd399;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a.return:hover {
+  background-color: #ff968f;
+}
