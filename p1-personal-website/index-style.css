@@ -83,30 +83,6 @@ img.arrow {
   width: 30%;
 }
 
-.subtitle {
-  margin-top: 30px;
-  border-radius: 20px;
-  padding: 10px;
-  background-color: #ffd399;
-  color: #124494;
-  justify-content: center;
-}
-
-p.answer {
-  padding-left: 5%;
-  padding-right: 5%;
-  text-indent: 10%;
-  text-align: justify;
-  font-size: 25px;
-  font-family: sans-serif;
-}
-
-div.grid-container {
-  flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 4%;
-  margin-top: 10%;
-  margin-left: 2%;
-  margin-right: 2%;
+img.selfie {
+ margin: 50%;
 }

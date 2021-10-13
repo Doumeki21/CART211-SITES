@@ -29,6 +29,22 @@ a:hover {
   background-color: #ff968f;
 }
 
+img.boy {
+  float: left;
+  width: 15%;
+  height: 15%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+img.robot {
+  float: right;
+  width: 15%;
+  height: 15%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
 div.grid-container {
   display: grid;
   flex-wrap: wrap;
