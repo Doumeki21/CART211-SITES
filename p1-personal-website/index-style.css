@@ -86,10 +86,15 @@ img.arrow {
 
 div.mydiv {
   margin-top: 15%;
-  background-image: url("assets/selfie-figurative.jpg");
+  margin-left: 20%;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  position: absolute;
 }
 
-div.mydiv:hover {
-  background-image: url("assets/selfie-abstract.jpg");
-  background-repeat: no-repeat;
+img.dialogue {
+  position: relative;
+  margin-top: 10%;
+  float: left;
 }
