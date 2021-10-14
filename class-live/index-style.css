@@ -1,3 +1,13 @@
+#dynamicHeader {
+  padding: 2%;
+  background-color:  pink;
+}
+
+p {
+padding: 2%;
+background-color: yellow;
+}
+
 body {
   justify-content: center;
   flex-wrap: wrap;
@@ -83,23 +93,4 @@ img.arrow {
   background-color: #ffd399;
   color: #124494;
   justify-content: center;
-}
-
-p.answer {
-  padding-left: 5%;
-  padding-right: 5%;
-  text-indent: 10%;
-  text-align: justify;
-  font-size: 25px;
-  font-family: sans-serif;
-}
-
-div.grid-container {
-  flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 4%;
-  margin-top: 10%;
-  margin-left: 2%;
-  margin-right: 2%;
 }
