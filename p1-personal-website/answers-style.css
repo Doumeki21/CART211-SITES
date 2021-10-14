@@ -86,12 +86,12 @@ h3 {
 }
 
 p.answer {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 5%;
   text-indent: 10%;
   text-align: justify;
   font-size: 25px;
   font-family: sans-serif;
+  background-color: #fff2e0;
 }
 
 div a.return {
