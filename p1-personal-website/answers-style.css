@@ -5,7 +5,7 @@
   position: sticky;
   /*z-index = defines the order of css elements*/
   z-index: 1;
-  padding: 30px;
+  padding: 5px;
 }
 
 #navbar a {
@@ -19,6 +19,7 @@
 }
 
 #navbar p {
+  margin-right: 2%;
   float: right;
   color: #ffffff;
   font-size: 45px;
@@ -93,7 +94,7 @@ p.answer {
   font-family: sans-serif;
 }
 
-a.return {
+div a.return {
   float: right;
   font-size: 25px;
   margin-top: 5%;

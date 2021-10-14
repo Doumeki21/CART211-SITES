@@ -39,7 +39,7 @@ p.credits {
   position: sticky;
   /*z-index = defines the order of css elements*/
   z-index: 1;
-  padding: 30px;
+  padding: 5px;
 }
 
 #navbar a {
@@ -53,6 +53,7 @@ p.credits {
 }
 
 #navbar p {
+  margin-right: 2%;
   float: right;
   color: #ffffff;
   font-size: 45px;
@@ -83,6 +84,12 @@ img.arrow {
   width: 30%;
 }
 
-img.selfie {
- margin: 50%;
+div.mydiv {
+  margin-top: 15%;
+  background-image: url("assets/selfie-figurative.jpg");
+}
+
+div.mydiv:hover {
+  background-image: url("assets/selfie-abstract.jpg");
+  background-repeat: no-repeat;
 }
