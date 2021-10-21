@@ -3,6 +3,10 @@
   background-color:  pink;
 }
 
+img {
+  position: relative;
+}
+
 p {
 padding: 2%;
 background-color: yellow;
