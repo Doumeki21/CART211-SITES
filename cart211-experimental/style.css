@@ -18,16 +18,20 @@ nav {
   min-height: 10vh;
   align-items: center;
   margin: auto;
+  /* font-size: 1em; */
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  padding: 20px;
+  background-color: #fff0ed;
+  color: black;
 }
 
 .nav-links, h1 {
-  flex: 1;
+  flex: 0.3;
 }
 
 .parallax-wrapper {
@@ -95,8 +99,9 @@ nav {
 }
 
 #group-2 {}
-  #group-2 .mid-layer {
-    background-color: yellowgreen;
-  }
+
+#group-2 .mid-layer {
+  background-color: yellowgreen;
+}
 
 #outro {}
