@@ -11,50 +11,59 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-  <script type="script.js"></script>
+  <script src="script.js"></script>
 
   <title>Home</title>
 </head>
+
 <body>
-  <!-- <div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"><h2>WELCOME</h2></span></span>
-  </div> -->
+  <div id="loader-wrapper">
+    <span class="loader"><span class="loader-inner">
+        <h2 id = "welcome-text"></h2>
+      </span></span>
+  </div>
 
-  <nav>
-    <h1>TESTING...</h1>
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="page1.html">About</a></li>
-      <li><a href="#">Conatct</a></li>
-    </ul>
-  </nav>
-  <div class="parallax-wrapper">
-    <div class="parallax-group intro-screen" id="intro">
-      Parallax Tutorial
-    </div>
+  <div id = "index-wrapper">
+    <header>
+      <h1>TESTING...</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#group-1">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <div class="parallax-group" id="group-1">
-      <div class="parallax-layer base-layer">
-        Base Layer Page
+    <div class="parallax-wrapper">
+      <div class="parallax-group intro-screen" id="intro">
+        Parallax Tutorial
       </div>
-      <div class="parallax-layer mid-layer">
-        Mid Layer page
-      </div>
-    </div>
 
-    <div class="parallax-group" id="group-2">
-      <div class="parallax-layer mid-layer">
-        Base Layer Page
+      <div class="parallax-group" id="group-1">
+        <div class="parallax-layer base-layer">
+          Base Layer Page
+        </div>
+        <div class="parallax-layer mid-layer">
+          Mid Layer page
+        </div>
       </div>
-      <div class="parallax-layer top-layer">
-        Top Layer Page
-      </div>
-    </div>
 
-    <div class="parallax-group outro-screen" id="outro">
-      The End
+      <div class="parallax-group" id="group-2">
+        <div class="parallax-layer mid-layer">
+          Base Layer Page
+        </div>
+        <div class="parallax-layer top-layer">
+          Top Layer Page
+        </div>
+      </div>
+
+      <div class="parallax-group outro-screen" id="outro">
+        The End
+      </div>
     </div>
   </div>
+
 </body>
 
 </html>
