@@ -99,11 +99,11 @@ li {
   padding-bottom: 20px;
 }
 
-div a.return {
+div.return {
   z-index: 5;
-  float: right;
+  /* float: right; */
   font-size: 25px;
-  /* margin-bottom: 10%; */
+  margin-top: 1%;
   padding: 30px;
   border-radius: 50px;
   background-color: #ffb9b3;

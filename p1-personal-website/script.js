@@ -55,4 +55,4 @@ function movePicture() {
 //   lastTitle = document.getElementById(:dynamicHeader).innerHTML:
 //   document.getElementById("dynamicHeader").innerHTML = myVariable;
 
-}
+// }

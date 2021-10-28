@@ -1,11 +1,11 @@
 const soundFile = new Audio("assets/sound.wav");
-let lastTitle = "Variable Title";
+let lastTitle = "Yay";
 let lastImage = "assets/camerons-world.png";
 let imageHorizontal = 0;
 let imageVertical = 0;
 
 //Function called every 20 millis.
-setInterval(movePicture, 20);
+// setInterval(movePicture, 60);
 //event are all identified by browser!!
 //call our keyboard function.
 document.addEventListener("keydown", keyboard);
@@ -38,30 +38,30 @@ function movePicture()
   {
     //imagePosition = imagePosition + 1;
     imageHorizontal = imageHorizontal + 3;
-    document.getElementById("dynamicPicture").style.right = imageHorizontal + "px";
+    //Offset = left
+    document.getElementById("dynamicPicture").style.left = imageHorizontal + "px";
   }
 }
 
 function keyboard(event)
 {
-  console.log("log test");
+  console.log(imageHorizontal);
 
   if(event.keyCode === 38) {
-    imageVertical += 3;
-  }
-  else if (event.keyCode === 40) {
     imageVertical -= 3;
   }
-  else if(event.keyCode === 37) {
-    imageHorizontal += 3;
-  }
-  else if(event.keyCode === 39) {
+  else if (event.keyCode === 40) {
+    imageVertical += 3;
+  } //left key
+  else if(event.keyCode === 37 && imageHorizontal <= 300) {
     imageHorizontal -= 3;
   }
-
+  else if(event.keyCode === 39) {
+    imageHorizontal += 3;
+  }
   if(imageHorizontal <= -100) {
       window.alert("you did it!");
   }
-  document.getElementById("dynamicPicture").style.right = imageHorizontal + "px";
+  document.getElementById("dynamicPicture").style.left = imageHorizontal + "px";
   document.getElementById("dynamicPicture").style.bottom = imageVertical + "px";
 }

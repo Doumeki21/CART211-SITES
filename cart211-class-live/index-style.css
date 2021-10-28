@@ -17,6 +17,7 @@ body {
   flex-wrap: wrap;
   text-align: center;
   position: relative;
+  cursor: url("assets/arrow.png"), auto;
 }
 
 img.dog {
