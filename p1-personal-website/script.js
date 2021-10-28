@@ -33,3 +33,26 @@ function movePicture() {
     document.getElementById("dynamicPicture").style.right = imagePosition + "px";
   }
 }
+
+
+
+
+
+
+
+// let lastTitle = "Variable title";
+// let lastImage = "assets/camerons-world.png";
+//
+// function myfunction() {
+//   let swapImage = lastImage;
+//   lastImage = document.getElementById("dynamicPicture").src;
+//   document.getElementById("dynamicPicture").src = swapImage;
+//
+//   document.getElementById("dynamicPicture").style.display = "block";
+//   document.getElementById("dynamicHeader").style.fontsize = 3em;
+//
+//   let swapTitle = lastTitle;
+//   lastTitle = document.getElementById(:dynamicHeader).innerHTML:
+//   document.getElementById("dynamicHeader").innerHTML = myVariable;
+
+}
