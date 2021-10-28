@@ -1,5 +1,5 @@
 const soundFile = new Audio("assets/sound.wav");
-let lastTitle = "Yay";
+let lastTitle = "Variable Title";
 let lastImage = "assets/camerons-world.png";
 let imageHorizontal = 0;
 let imageVertical = 0;
