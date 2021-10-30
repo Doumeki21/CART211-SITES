@@ -23,7 +23,7 @@ window.onload = function() {
     }
   }
 
-  //CURSOR
+  //CURSOR (CANNOT BE IN ANOTHER JS FILE!! NEEDS TO BE INSIDE INDEX.JS)
   //2: put on the parent;
   document.getElementById("parent").addEventListener("mousemove", mouseCapture);
 
