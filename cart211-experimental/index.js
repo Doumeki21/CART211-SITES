@@ -1,6 +1,5 @@
-
-
 window.onload = function() {
+  //Loader screen
   console.log("running");
   setTimeout(loadIndex, 5000);
 

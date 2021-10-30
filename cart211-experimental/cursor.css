@@ -1,0 +1,12 @@
+#moveMe {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle {
+  background-color: pink;
+  width: 25px;
+  height: 25;
+  border-radius: 12px;
+}
