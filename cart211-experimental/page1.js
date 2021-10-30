@@ -1,27 +1,4 @@
-window.onload = function() {
-  //Loader screen
-  console.log("running");
-  setTimeout(loadIndex, 5000);
-
-  let text = ['W', 'e', 'l', 'c', 'o', 'm', 'e'];
-  let currentIndex = 0;
-  let typeWritten = "";
-  let typeAnimation = setInterval(typeWelcome, 500);
-
-  function loadIndex() {
-    document.getElementById("loader-wrapper").style.display = "none";
-    document.getElementById("index-wrapper").style.display = "block";
-  }
-
-  function typeWelcome() {
-    typeWritten += text[currentIndex];
-    console.log(typeWritten);
-    document.getElementById("welcome-text").textContent = typeWritten;
-    currentIndex++;
-    if (currentIndex >= text.length) {
-      clearInterval(typeAnimation);
-    }
-  }
+window.onLoad = function() {
 
   //CURSOR (CANNOT BE IN ANOTHER JS FILE!! NEEDS TO BE INSIDE INDEX.JS)
   //2: put on the parent;
@@ -50,13 +27,3 @@ window.onload = function() {
     document.getElementById("moveMe").style.top = (mouse_offset_y - mBox.height / 2) + 1 + "px";
   }
 }
-
-
-// //Smooth scroll with anchor tag
-// function smoothScroll(target, duration) {
-//   var target = document.querySelector(target);
-//   var targetPosition = target.getBoundingClientRect().top;
-//   var startPosition = window.pageYOffset;
-//
-// console.log(startPosition);
-// }

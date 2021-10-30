@@ -6,7 +6,7 @@
 
 header {
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   z-index: 5;
@@ -17,11 +17,11 @@ header {
   font-size: 1.8em;
 }
 
-section {
+body {
   /* center left and right */
   margin: 10% 20%;
+  height: 100%
   animation: transitionIn 1s;
-  /* animation-delay: 1s; */
 }
 
 @keyframes transitionIn {
