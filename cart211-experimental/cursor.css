@@ -4,9 +4,17 @@
   left: 0;
 }
 
-.circle {
-  background-color: pink;
-  width: 25px;
-  height: 25px;
-  border-radius: 12px;
+.cursor {
+  z-index: 10;
+  background-color: rgba(255, 205, 199, 0.5);
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-5%, -5%);
+  /* This helps scrolling and click links! */
+  pointer-events: none;
+  transition: all 0.1s ease;
+  transform-origin: 100% 100%;
 }
