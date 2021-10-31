@@ -91,9 +91,12 @@ p {
 }
 
 #contactPage .credits{
+  display: flex;
+  flex-wrap: wrap;
   position: sticky;
   /* width: 10%;
   bottom: 5px; */
+  margin-top: 5rem;
   text-align: center;
   justify-content: center;
   height: 100vh;
