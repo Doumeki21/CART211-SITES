@@ -25,7 +25,7 @@
 
 body {
   animation: transitionIn 1s;
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 
 @keyframes transitionIn {
@@ -63,7 +63,7 @@ header {
   align-items: center;
   margin: auto;
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 nav {
@@ -73,7 +73,8 @@ nav {
   align-items: center;
   margin: auto;
   font-family: 'Bebas Neue', cursive;
-  font-size: 2em;
+  font-size: 1.6em;
+  color: white;
 }
 
 .nav-links {
@@ -82,14 +83,17 @@ nav {
   width: min-content;
   list-style: none;
   padding: 20px;
-  background-color: rgba(255, 240, 237, 0.5) ;
-  color: black;
+  /* background-color: rgba(255, 240, 237, 0.5) ; */
+  color: white;
 }
 
 .nav-links, h1 {
   flex: 0.3;
 }
 
+a {
+  color: #fff0ed;
+}
 .parallax-wrapper {
   height: 100vh;
   overflow-x: hidden;

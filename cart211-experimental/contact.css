@@ -4,6 +4,13 @@
   /* box-sizing: border-box; */
 }
 
+/* So that there isn't random scrolling of empty spaces, but you won't be able to see all the info if there's too much. */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 header {
   overflow: hidden;
   position: fixed;
@@ -14,13 +21,47 @@ header {
   align-items: center;
   margin: auto;
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
-body {
-  /* center left and right */
-  margin: 10% 20%;
-  height: 100%
+nav {
+  overflow: hidden;
+  justify-content: space-between;
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.6em;
+}
+
+.nav-links {
+  display: block;
+  /* justify-content: space-between; */
+  width: min-content;
+  list-style: none;
+  padding: 20px;
+  /* background-color: rgba(255, 240, 237, 0.5); */
+}
+
+a {
+  color: black;
+}
+
+.nav-links, h1 {
+  flex: 0.3;
+}
+
+/* So that the curosr is centered */
+#top {
+  height: 1vh;
+}
+
+#contactSection {
+  /* margin-top:10vh; */
+  background: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
   animation: transitionIn 1s;
 }
 
@@ -29,6 +70,7 @@ body {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -46,4 +88,14 @@ p {
   font-size: 1.3rem;
   line-height: 150%;
   font-family: 'Roboto', sans-serif;
+}
+
+#contactPage .credits{
+  position: sticky;
+  /* width: 10%;
+  bottom: 5px; */
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.1rem;
 }

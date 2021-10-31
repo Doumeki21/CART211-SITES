@@ -8,8 +8,8 @@
   /* cursor: none; */
   z-index: 10;
   background-color: rgba(255, 205, 199, 0.5);
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   border: 2px solid black;
   border-radius: 50%;
   position: absolute;
