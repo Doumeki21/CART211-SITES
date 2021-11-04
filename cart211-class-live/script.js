@@ -6,6 +6,7 @@ let imageVertical = 0;
 
 //Function called every 20 millis.
 // setInterval(movePicture, 60);
+
 //event are all identified by browser!!
 //call our keyboard function.
 document.addEventListener("keydown", keyboard);
@@ -21,7 +22,7 @@ function myfunction() {
   document.getElementById("dynamicPicture").src = swapImage;
 
   // document.getElementById("dynamicPicture").style.display = "inline";
-  document.getElementById("dynamicHeader").style.backgroundColor = "blue";
+  document.getElementById("dynamicHeader").style.backgroundColor = "#57FFFF";
 
   let swapTitle = lastTitle;
   lastTitle = document.getElementById("dynamicHeader").innerHTML;
@@ -55,9 +56,19 @@ function keyboard(event)
   } //left key
   else if(event.keyCode === 37 && imageHorizontal <= 300) {
     imageHorizontal -= 3;
-  }
+  } //Right key
   else if(event.keyCode === 39) {
     imageHorizontal += 3;
+  }
+  //When A is pressed-
+  else if (event.keyCode === 65) {
+    //This gives an array of however much of elements we have in the class.
+    let array = document.getElementsByClassName("special-para");
+
+    for (let i = 0; i < array.length; i++) {
+      //The first thing in the class should turn this color.
+          array[i].style.color = "#FF55FF";
+    }
   }
   if(imageHorizontal <= -100) {
       window.alert("you did it!");
