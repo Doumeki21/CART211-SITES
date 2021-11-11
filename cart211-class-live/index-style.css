@@ -7,6 +7,14 @@ img {
   position: relative;
 }
 
+#dragImage {
+  /* follows the position of cursor */
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+}
+
 p {
 padding: 2%;
 background-color: yellow;
