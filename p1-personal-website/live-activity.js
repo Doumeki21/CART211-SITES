@@ -1,12 +1,56 @@
 const soundFile = new Audio("assets/sound.wav");
-let lastTitle = "Yay";
+let lastTitle = "Variable Title";
 let lastImage = "assets/camerons-world.png";
-// let imagePosition = 0;
 let imageHorizontal = 0;
 let imageVertical = 0;
 
+let dragHorizontal = 0;
+let dragVertical = 0;
+let dragOffsetH = 0;
+let dragOffsetV = 0;
+let dragging = false;
+
+
+  dragHorizontal = window.localStorage.getItem("dragHorizontal");
+  dragVertical = window.localStorage.getItem("dragVertical");
+
+function onLoad() {
+  document.getElementById("dragImage").style.left = dragHorizontal - 100 + "px";
+  document.getElementById("dragImage").style.top = dragVertical - 50 + "px";
+}
+
+
 //Function called every 20 millis.
-setInterval(movePicture, 20);
+// setInterval(movePicture, 60);
+
+//event are all identified by browser!!
+//call our keyboard function.
+document.addEventListener("keydown", keyboard);
+
+function mouseMove() {
+  if (dragging) {
+    dragHorizontal = event.pageX;
+    dragVertical = event.pageY;
+
+
+    document.getElementById("dragImage").style.left = dragHorizontal - 100 + "px";
+    document.getElementById("dragImage").style.top = dragVertical - 50 + "px";
+  }
+}
+
+function mouseDown() {
+  dragOffsetH = event.pageX -parseInt(document.getElementById("dragImage").style.left, 10);
+    dragOffsetV = event.pageY - document.getElementById("dragImage").style.top;
+  dragging = true;
+}
+
+function mouseUp() {
+  dragging = false;
+
+//take variable into the local storage.
+  window.localStorage.setItem("dragHorizontal", dragHorizontal);
+  window.localStorage.setItem("dragVertical", dragVertical);
+}
 
 function myfunction() {
   // document.getElementById("dynamicHeader").innerHTML = "New Color";
@@ -19,7 +63,7 @@ function myfunction() {
   document.getElementById("dynamicPicture").src = swapImage;
 
   // document.getElementById("dynamicPicture").style.display = "inline";
-  document.getElementById("dynamicHeader").style.backgroundColor = "blue";
+  document.getElementById("dynamicHeader").style.backgroundColor = "#57FFFF";
 
   let swapTitle = lastTitle;
   lastTitle = document.getElementById("dynamicHeader").innerHTML;
@@ -32,7 +76,8 @@ function movePicture() {
   } else {
     //imagePosition = imagePosition + 1;
     imageHorizontal = imageHorizontal + 3;
-    document.getElementById("dynamicPicture").style.right = imageHorizontal + "px";
+    //Offset = left
+    document.getElementById("dynamicPicture").style.left = imageHorizontal + "px";
   }
 }
 
@@ -53,7 +98,7 @@ function keyboard(event) {
   //When A is pressed-
   else if (event.keyCode === 65) {
     //This gives an array of however much of elements we have in the class.
-    let array = document.getElementsByClassName("special-style");
+    let array = document.getElementsByClassName("special-para");
 
     for (let i = 0; i < array.length; i++) {
       //The first thing in the class should turn this color.
@@ -64,24 +109,5 @@ function keyboard(event) {
     window.alert("you did it!");
   }
   document.getElementById("dynamicPicture").style.left = imageHorizontal + "px";
-    document.getElementById("dynamicPicture").style.top = imageVertical + "px";
+  document.getElementById("dynamicPicture").style.top = imageVertical + "px";
 }
-
-
-
-// let lastTitle = "Variable title";
-// let lastImage = "assets/camerons-world.png";
-//
-// function myfunction() {
-//   let swapImage = lastImage;
-//   lastImage = document.getElementById("dynamicPicture").src;
-//   document.getElementById("dynamicPicture").src = swapImage;
-//
-//   document.getElementById("dynamicPicture").style.display = "block";
-//   document.getElementById("dynamicHeader").style.fontsize = 3em;
-//
-//   let swapTitle = lastTitle;
-//   lastTitle = document.getElementById(:dynamicHeader).innerHTML:
-//   document.getElementById("dynamicHeader").innerHTML = myVariable;
-
-// }
