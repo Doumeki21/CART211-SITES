@@ -78,7 +78,8 @@ a {
 
 h2 {
   font-size: 4rem;
-  padding: 2rem 8rem;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
   font-weight: bold;
   /* font-family: 'Roboto', sans-serif; */
 }

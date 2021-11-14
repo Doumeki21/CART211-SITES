@@ -183,3 +183,50 @@ a {
 }
 
 #outro {}
+
+  #aboutSection {
+    /* margin-top:10vh; */
+    margin-left: 20%;
+    margin-right: 20%;
+    animation: transitionIn 1s;
+  }
+
+  @keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  h2 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    /* font-family: 'Roboto', sans-serif; */
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 150%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a.fortune {
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 5rem;
+    text-decoration: none;
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    background:rgba(255, 205, 199, 0.5);
+  }
+
+  .container#blur.active {
+    filter: blur(20px);
+  }

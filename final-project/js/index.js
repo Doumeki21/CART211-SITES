@@ -24,6 +24,10 @@ window.onload = function() {
   }
 }
 
+function toggle() {
+  var blur = document.getElementById("blur");
+  blur.classList.toggle("active")
+}
 
 // //Smooth scroll with anchor tag
 // function smoothScroll(target, duration) {
