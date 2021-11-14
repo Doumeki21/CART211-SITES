@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/* So that there isn't random scrolling of empty spaces, but you won't be able to see all the info if there's too much. */
+body {
+  overflow: hidden;
+  font-family: sans-serif;
+  font-family: 'Comfortaa', cursive;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-size: 1em;
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+nav {
+  /* overflow: hidden;
+  justify-content: space-between; */
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+  font-size: 1.6em;
+}
+
+.nav-links {
+  display: block;
+  /* justify-content: space-between; */
+  width: min-content;
+  list-style: none;
+  padding: 20px;
+  /* background-color: rgba(255, 240, 237, 0.5); */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* So that the curosr is centered */
+#top {
+  height: 1vh;
+}
+
+#contactSection {
+  /* margin-top:10vh; */
+  background: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  font-size: 4rem;
+  padding: 2rem 8rem;
+  font-weight: bold;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.credits{
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  /* width: 10%;
+  bottom: 5px; */
+  margin-top: 5rem;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.1rem;
+}
