@@ -31,6 +31,32 @@ function toggle() {
   popup.classList.toggle("active");
 }
 
+// let btn = document.getElementById(`btn`);
+// let output = document.getElementById(`output`);
+// let quotes = [
+//   `Strawberry Shortcake`,
+//   `Chocolate Ice Cream`,
+//   `Pudding`,
+// ]
+//
+// btn.addEventListener(`onclick`, function(){
+//   var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
+//   output.innerHTML = randomQuote;
+// })
+
+let fortune = document.getElementsByClassName("fortune");
+let popup = document.getElementById("popup");
+let fortunes = [
+  `Strawberry Shortcake`,
+  `Chocolate Ice Cream`,
+  `Pudding`,
+];
+
+fortune.addEventListener(`click`, function(){
+  var randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
+  popup.innerHTML = randomFortune;
+})
+
 // //Smooth scroll with anchor tag
 // function smoothScroll(target, duration) {
 //   var target = document.querySelector(target);

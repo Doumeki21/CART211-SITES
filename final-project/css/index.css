@@ -219,7 +219,7 @@ a {
     font-family: 'Poppins', sans-serif;
   }
 
-  a.fortune {
+  .fortune {
     position: relative;
     padding: 20px;
     display: inline-block;
@@ -253,6 +253,9 @@ a {
   }
 
 #popup .fortune {
+  float: right;
+  padding: 15px;
+  font-size: 0.8em;
   margin-top: 0;
   border-radius: 0.5rem;
   background:rgba(200, 80, 80, 0.5);
@@ -270,3 +273,26 @@ a {
   opacity: 1;
   transition: 0.5s;
 }
+
+/* #container {
+  background-color: black;
+  height: 275px;
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#btn {
+margin: 50px auto;
+height: 50px;
+width: 250px;
+font-size: 22px;
+background-color: white;
+}
+
+#output {
+  margin: 25px auto;
+  font-size: 26px;
+  color: white;
+
+} */
