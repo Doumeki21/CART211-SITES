@@ -33,7 +33,6 @@ body {
     opacity: 0;
     transform: translateY(-20px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -57,12 +56,12 @@ body {
 
 /* tasti */
 #logo {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
   position: fixed;
-  width: 95%;
   top: 2%;
   z-index: 1;
   min-height: 5vh;
@@ -74,6 +73,10 @@ body {
 }
 
 .contact {
+  padding: 20px;
+  display: inline-block;
+  float: right;
+  margin-right: 20%;
   text-decoration: underline;
 }
 
