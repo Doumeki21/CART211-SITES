@@ -220,6 +220,7 @@ a {
     position: relative;
     padding: 20px;
     display: inline-block;
+    float: right;
     margin-top: 5rem;
     text-decoration: none;
     font-size: 3rem;
@@ -230,3 +231,39 @@ a {
   .container#blur.active {
     filter: blur(20px);
   }
+
+  #popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10em;
+    height: 5em;
+    padding: 1em;
+    background-image: url("/assets/images/fortune.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px, 30px rgba(0, 0.30);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+#popup .fortune {
+  margin-top: 0;
+  border-radius: 0.5rem;
+  background:rgba(200, 80, 80, 0.5);
+}
+
+#popup h2 {
+  margin-top: 25%;
+  text-align: center;
+  font-style: italic;
+}
+
+#popup.active {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
