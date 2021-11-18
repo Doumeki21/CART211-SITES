@@ -33,6 +33,7 @@ body {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -179,6 +180,20 @@ a {
   background-color: crimson;
 }
 
+.dish {
+  transform: rotate(10deg);
+  width: 15%;
+  float: right;
+  margin-right: 2%;
+}
+
+.pun {
+  position: absolute;
+  font-size: 0.5em;
+  color: #0A1128;
+  font-family: 'Indie Flower', cursive;
+}
+
 #group-2 {}
 
 #group-2 .mid-layer {
@@ -187,70 +202,70 @@ a {
 
 #outro {}
 
-  #aboutSection {
-    /* margin-top:10vh; */
-    margin-left: 20%;
-    margin-right: 20%;
-    animation: transitionIn 1s;
-  }
+#aboutSection {
+  /* margin-top:10vh; */
+  margin-left: 20%;
+  margin-right: 20%;
+  animation: transitionIn 1s;
+}
 
-  @keyframes transitionIn {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  h2 {
-    font-size: 4rem;
-    padding-bottom: 2rem;
-    font-weight: bold;
-    /* font-family: 'Roboto', sans-serif; */
-  }
-
-  p {
-    font-size: 1.5rem;
-    line-height: 150%;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .fortune {
-    position: relative;
-    padding: 20px;
-    display: inline-block;
-    float: right;
-    margin-top: 5rem;
-    text-decoration: none;
-    font-size: 3rem;
-    border-radius: 0.5rem;
-    background:rgba(255, 205, 199, 0.5);
-  }
-
-  .container#blur.active {
-    filter: blur(20px);
-  }
-
-  #popup {
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 10em;
-    height: 5em;
-    padding: 1em;
-    background-image: url("/assets/images/fortune.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    box-shadow: 0 5px, 30px rgba(0, 0.30);
-    visibility: hidden;
+@keyframes transitionIn {
+  from {
     opacity: 0;
-    transition: 0.5s;
+    transform: translateY(-20px);
   }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fortune {
+  position: relative;
+  padding: 20px;
+  display: inline-block;
+  float: right;
+  margin-top: 5rem;
+  text-decoration: none;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 205, 199, 0.5);
+}
+
+.container#blur.active {
+  filter: blur(20px);
+}
+
+#popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10em;
+  height: 5em;
+  padding: 1em;
+  background-image: url("/assets/images/fortune.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px, 30px rgba(0, 0.30);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
 
 #popup .fortune {
   float: right;
@@ -258,7 +273,7 @@ a {
   font-size: 0.8em;
   margin-top: 0;
   border-radius: 0.5rem;
-  background:rgba(200, 80, 80, 0.5);
+  background: rgba(200, 80, 80, 0.5);
 }
 
 #popup h2 {
