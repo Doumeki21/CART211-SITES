@@ -31,31 +31,47 @@ function toggle() {
   popup.classList.toggle("active");
 }
 
-// let btn = document.getElementById(`btn`);
-// let output = document.getElementById(`output`);
-// let quotes = [
-//   `Strawberry Shortcake`,
-//   `Chocolate Ice Cream`,
-//   `Pudding`,
-// ]
-//
-// btn.addEventListener(`onclick`, function(){
-//   var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
-//   output.innerHTML = randomQuote;
-// })
+//SR-> this function will return a LIST -> not a single item  (even if there is only 1)
+let fortuneElements = document.getElementsByClassName("fortune");
 
-let fortune = document.getElementsByClassName("fortune");
-let popup = document.getElementById("popup");
 let fortunes = [
   `Strawberry Shortcake`,
   `Chocolate Ice Cream`,
   `Pudding`,
 ];
+//SR->need to go through ALL
+for (let i = 0; i < fortuneElements.length; i++) {
 
-fortune.addEventListener(`click`, function(){
-  var randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
-  popup.innerHTML = randomFortune;
-})
+  fortuneElements[i].addEventListener(`click`, function() {
+    toggle();
+    let randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
+    console.log(randomFortune);
+    //popup.classList.add("active");
+    let popupText = popup.children[1];
+    popupText.innerHTML = randomFortune;
+
+    //SR first child of popup is the close "x" element
+    let closeButton = popup.children[0];
+
+    //code for close button
+    closeButton.addEventListener(`click`, function() {
+
+      popup.classList.remove("active");
+      popupText.innerHTML = "";
+    })
+  })
+}
+
+ // SR >>>ADD LOAD DOWN HERE
+
+// //Smooth scroll with anchor tag
+// function smoothScroll(target, duration) {
+//   var target = document.querySelector(target);
+//   var targetPosition = target.getBoundingClientRect().top;
+//   var startPosition = window.pageYOffset;
+//
+// console.log(startPosition);
+// }
 
 // //Smooth scroll with anchor tag
 // function smoothScroll(target, duration) {

@@ -174,6 +174,7 @@ a {
 
 #menu {
   z-index: -1;
+  height: 200vh;
 }
 
 #menu .base-layer {
@@ -181,16 +182,20 @@ a {
 }
 
 .dish {
+  /* absolute = take out of the default doc layout, preferred for creating fancy/ custom layout!*/
+  position: absolute;
   transform: rotate(10deg);
-  width: 15%;
   float: right;
-  margin-right: 2%;
+  right: 10%;
 }
 
 .pun {
+  width: 100%;
+  bottom: 8%;
   position: absolute;
   font-size: 0.5em;
   color: #0A1128;
+  text-align: center;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -267,19 +272,30 @@ p {
   transition: 0.5s;
 }
 
-#popup .fortune {
+/* the x button */
+#popup a.fortune {
   float: right;
   padding: 15px;
   font-size: 0.8em;
   margin-top: 0;
   border-radius: 0.5rem;
-  background: rgba(200, 80, 80, 0.5);
+  background:rgba(200, 80, 80, 1.0);
+  opacity:1;
+  cursor:pointer;
 }
 
-#popup h2 {
+#popup-text {
   margin-top: 25%;
   text-align: center;
   font-style: italic;
+}
+
+h2.fortune-title {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  color: #0A1128;
+  font-weight: bolder;
 }
 
 #popup.active {
@@ -288,26 +304,3 @@ p {
   opacity: 1;
   transition: 0.5s;
 }
-
-/* #container {
-  background-color: black;
-  height: 275px;
-  width: 750px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#btn {
-margin: 50px auto;
-height: 50px;
-width: 250px;
-font-size: 22px;
-background-color: white;
-}
-
-#output {
-  margin: 25px auto;
-  font-size: 26px;
-  color: white;
-
-} */
