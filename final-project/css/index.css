@@ -173,8 +173,9 @@ a {
 
 /* First text */
 #menu {
+  display: flex;
   z-index: -1;
-  height: 400vh;
+  height: 440vh;
   text-align: center;
   justify-content: center;
   top: 10%;
@@ -183,9 +184,9 @@ a {
 h2.menu-title {
   position: absolute;
   font-size: 2em;
-  transform: rotate(15deg);
-  left: 25%;
-  padding-bottom: 70%;
+  transform: rotate(5deg);
+  left: 35%;
+  padding-bottom: 80%;
 }
 
 #menu .base-layer {
@@ -199,6 +200,15 @@ h2.menu-title {
   float: left;
   left: 10%;
   bottom: 60%;
+}
+
+.dish-2 {
+  /* absolute = take out of the default doc layout, preferred for creating fancy/ custom layout!*/
+  position: absolute;
+  transform: rotate(8deg);
+  float: left;
+  left: 15%;
+  bottom: 51%;
 }
 
 .pun {
