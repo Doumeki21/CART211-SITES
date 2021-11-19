@@ -125,14 +125,17 @@ a {
   color: #fff0ed;
 }
 
+/* Landing page text */
 .intro-screen {
   height: 100vh;
   background-color: #0A1128;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  padding-left: 15%;
 }
 
+/* text */
 .outro-screen {
   height: 100vh;
   background-color: teal;
@@ -168,13 +171,18 @@ a {
   transform: translateZ(100px) scale(1);
 }
 
-#home {
-  z-index: 0;
-}
-
+/* First text */
 #menu {
   z-index: -1;
-  height: 200vh;
+  height: 400vh;
+  text-align: center;
+  justify-content: center;
+  top: 10%;
+}
+
+h2.menu-title {
+  font-size: 2em;
+  transform: rotate(-15deg);
 }
 
 #menu .base-layer {
