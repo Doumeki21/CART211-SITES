@@ -181,20 +181,24 @@ a {
 }
 
 h2.menu-title {
+  position: absolute;
   font-size: 2em;
-  transform: rotate(-15deg);
+  transform: rotate(15deg);
+  left: 25%;
+  padding-bottom: 70%;
 }
 
 #menu .base-layer {
   background-color: crimson;
 }
 
-.dish {
+.dish-1 {
   /* absolute = take out of the default doc layout, preferred for creating fancy/ custom layout!*/
   position: absolute;
-  transform: rotate(10deg);
-  float: right;
-  right: 10%;
+  transform: rotate(-10deg);
+  float: left;
+  left: 10%;
+  bottom: 60%;
 }
 
 .pun {
