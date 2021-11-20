@@ -209,7 +209,7 @@ h2.main-title {
 #menu {
   display: flex;
   z-index: -1;
-  height: 440vh;
+  height: 350vh;
   text-align: center;
   justify-content: center;
   top: 10%;
@@ -221,7 +221,7 @@ h2.menu-title {
   font-size: 2em;
   transform: rotate(5deg);
   left: 32%;
-  padding-bottom: 65%;
+  padding-bottom: 50%;
 }
 
 #menu .base-layer {
@@ -243,7 +243,6 @@ h2.menu-title {
 }
 
 .dish-2 {
-  /* absolute = take out of the default doc layout, preferred for creating fancy/ custom layout!*/
   position: absolute;
   transform: rotate(2deg);
   float: left;
@@ -257,7 +256,6 @@ h2.menu-title {
 }
 
 .dish-3 {
-  /* absolute = take out of the default doc layout, preferred for creating fancy/ custom layout!*/
   position: absolute;
   transform: rotate(4deg);
   float: left;
@@ -268,6 +266,38 @@ h2.menu-title {
 .cake-roll {
   width: 500px;
   height: 500px;
+}
+
+/* cookies */
+.dish-4 {
+  position: absolute;
+  transform: rotate(10deg);
+  float: right;
+  right: 5%;
+  bottom: 75%;
+}
+
+/* square cake */
+.dish-5 {
+  position: absolute;
+  transform: rotate(-10deg);
+  float: right;
+  right: 15%;
+  bottom: 50%;
+}
+
+.square-cake {
+  width: 400px;
+  height: 400px;
+}
+
+/* Donuts */
+.dish-6 {
+  position: absolute;
+  transform: rotate(4deg);
+  float: right;
+  right: 15%;
+  bottom: 35%;
 }
 
 .pun {
