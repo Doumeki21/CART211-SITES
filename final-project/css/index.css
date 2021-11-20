@@ -181,12 +181,13 @@ a {
   top: 10%;
 }
 
+/* "menu" */
 h2.menu-title {
   position: absolute;
   font-size: 2em;
   transform: rotate(5deg);
-  left: 35%;
-  padding-bottom: 80%;
+  left: 32%;
+  padding-bottom: 65%;
 }
 
 #menu .base-layer {
@@ -199,16 +200,40 @@ h2.menu-title {
   transform: rotate(-10deg);
   float: left;
   left: 10%;
-  bottom: 60%;
+  bottom: 55%;
+}
+
+.pudding {
+  width: 400px;
+  height: 400px;
 }
 
 .dish-2 {
   /* absolute = take out of the default doc layout, preferred for creating fancy/ custom layout!*/
   position: absolute;
-  transform: rotate(8deg);
+  transform: rotate(2deg);
   float: left;
   left: 15%;
-  bottom: 51%;
+  bottom: 40%;
+}
+
+.cream-puff {
+  width: 400px;
+  height: 400px;
+}
+
+.dish-3 {
+  /* absolute = take out of the default doc layout, preferred for creating fancy/ custom layout!*/
+  position: absolute;
+  transform: rotate(4deg);
+  float: left;
+  left: 30%;
+  bottom: 50%;
+}
+
+.cake-roll {
+  width: 500px;
+  height: 500px;
 }
 
 .pun {
