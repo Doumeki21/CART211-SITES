@@ -38,6 +38,13 @@ let fortunes = [
   `Strawberry Shortcake`,
   `Chocolate Ice Cream`,
   `Pudding`,
+  `Black Sesame Mochi`,
+  `Apple Pie`,
+  `Napolean`,
+  `Tiramisu Cake`,
+  `Cheesecake`,
+  `Hot chocolate`,
+  `Brownie`,
 ];
 //SR->need to go through ALL
 for (let i = 0; i < fortuneElements.length; i++) {
