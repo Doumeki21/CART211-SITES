@@ -55,6 +55,11 @@ a {
   height: 1vh;
 }
 
+#contactPage {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 #contactSection {
   /* margin-top:10vh; */
   background: white;

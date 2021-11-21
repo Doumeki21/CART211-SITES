@@ -128,6 +128,9 @@ a {
 /* Landing page text */
 .intro-screen {
   height: 100vh;
+  background: url(/assets/images/landing-page.jpg);
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
   background-color: #0A1128;
   display: flex;
   align-items: center;
@@ -156,7 +159,7 @@ h2.main-title {
   font-size: 0.5em;
 }
 
-.arrow span{
+.arrow span {
   align-items: center;
   justify-content: center;
   margin-left: 50%;
@@ -172,7 +175,7 @@ h2.main-title {
 /* text */
 .outro-screen {
   height: 100vh;
-  background-color: teal;
+  background-color: #0A1128;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,10 +212,10 @@ h2.main-title {
 #menu {
   display: flex;
   z-index: -1;
-  height: 350vh;
+  height: 420vh;
   text-align: center;
   justify-content: center;
-  top: 10%;
+  padding-top: 10%;
 }
 
 /* "menu" */
@@ -224,8 +227,20 @@ h2.menu-title {
   padding-bottom: 50%;
 }
 
+h3.menu-note {
+  position: absolute;
+  font-size: 0.5em;
+  transform: rotate(-5deg);
+  right: 25%;
+  bottom: 30%;
+  padding: 5%;
+  background-image: url(/assets/images/note.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 #menu .base-layer {
-  background-color: crimson;
+  background-color: #0A1128;
 }
 
 .dish-1 {
@@ -234,7 +249,7 @@ h2.menu-title {
   transform: rotate(-10deg);
   float: left;
   left: 10%;
-  bottom: 55%;
+  bottom: 50%;
 }
 
 .pudding {
@@ -247,7 +262,7 @@ h2.menu-title {
   transform: rotate(2deg);
   float: left;
   left: 15%;
-  bottom: 40%;
+  bottom: 30%;
 }
 
 .cream-puff {
@@ -260,7 +275,7 @@ h2.menu-title {
   transform: rotate(4deg);
   float: left;
   left: 30%;
-  bottom: 50%;
+  bottom: 40%;
 }
 
 .cake-roll {
@@ -294,10 +309,10 @@ h2.menu-title {
 /* Donuts */
 .dish-6 {
   position: absolute;
-  transform: rotate(4deg);
+  transform: rotate(12deg);
   float: right;
-  right: 15%;
-  bottom: 35%;
+  right: 10%;
+  bottom: 24%;
 }
 
 .pun {
@@ -313,7 +328,7 @@ h2.menu-title {
 #group-2 {}
 
 #group-2 .mid-layer {
-  background-color: yellowgreen;
+  background-color: #0A1128;
 }
 
 #outro {}
@@ -390,9 +405,9 @@ p {
   font-size: 0.8em;
   margin-top: 0;
   border-radius: 0.5rem;
-  background:rgba(200, 80, 80, 1.0);
-  opacity:1;
-  cursor:pointer;
+  background: rgba(200, 80, 80, 1.0);
+  opacity: 1;
+  cursor: pointer;
 }
 
 #popup-text {
