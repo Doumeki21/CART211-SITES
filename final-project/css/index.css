@@ -229,14 +229,15 @@ h2.menu-title {
 
 h3.menu-note {
   position: absolute;
-  font-size: 0.5em;
+  font-size: 0.6em;
   transform: rotate(-5deg);
   right: 25%;
-  bottom: 30%;
+  bottom: 28%;
   padding: 5%;
   background-image: url(/assets/images/note.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  font-family: 'Indie Flower', cursive;
 }
 
 #menu .base-layer {
@@ -289,16 +290,16 @@ h3.menu-note {
   transform: rotate(10deg);
   float: right;
   right: 5%;
-  bottom: 75%;
+  bottom: 65%;
 }
 
 /* square cake */
 .dish-5 {
   position: absolute;
-  transform: rotate(-10deg);
+  transform: rotate(-20deg);
   float: right;
   right: 15%;
-  bottom: 50%;
+  bottom: 48%;
 }
 
 .square-cake {
