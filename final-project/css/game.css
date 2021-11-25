@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  overflow: hidden;
+  font-family: sans-serif;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  background-color: #0A1128;
+  color: #fff0ed;
+}
+
+/* tasti */
+#logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  top: 2%;
+  z-index: 1;
+  min-height: 5vh;
+  align-items: center;
+  margin: auto;
+  font-size: 1.6em;
+  color: #fff0ed;
+  padding: 20px;
+}
+
+.contact {
+  padding: 20px;
+  display: inline-block;
+  float: right;
+  margin-right: 20%;
+  text-decoration: underline;
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+nav {
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+  font-size: 1.6em;
+}
+
+.nav-links {
+  display: block;
+  width: min-content;
+  list-style: none;
+  padding: 20px;
+}
+
+a {
+  color: #fff0ed;
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+span {
+  padding-right: 1%;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+#myCanvas {
+  width: 60%;
+  height: 60%;
+}
