@@ -231,7 +231,7 @@ h3.menu-note {
   position: absolute;
   font-size: 0.6em;
   transform: rotate(-5deg);
-  right: 25%;
+  right: 35%;
   bottom: 28%;
   padding: 5%;
   background-image: url(/assets/images/note.jpg);
@@ -249,7 +249,7 @@ h3.menu-note {
   position: absolute;
   transform: rotate(-10deg);
   float: left;
-  left: 10%;
+  left: 13%;
   bottom: 50%;
 }
 
@@ -276,7 +276,7 @@ h3.menu-note {
   transform: rotate(4deg);
   float: left;
   left: 30%;
-  bottom: 40%;
+  bottom: 38%;
 }
 
 .cake-roll {
@@ -299,7 +299,7 @@ h3.menu-note {
   transform: rotate(-20deg);
   float: right;
   right: 15%;
-  bottom: 48%;
+  bottom: 45%;
 }
 
 .square-cake {
@@ -326,10 +326,23 @@ h3.menu-note {
   font-family: 'Indie Flower', cursive;
 }
 
-#group-2 {}
+#group-2 {
+  height: 200vh;
+}
+
+#history {
+  height: 250vh;
+  /* display: flex;
+  z-index: -1;
+  height: 420vh; */
+  text-align: center;
+  justify-content: center;
+  padding-top: 55%;
+}
 
 #group-2 .mid-layer {
-  background-color: #0A1128;
+  /* background-color: #0A1128; */
+  background-color: teal;
 }
 
 #outro {}

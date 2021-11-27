@@ -6,6 +6,7 @@ class AudioController {
     // this.bgMusic.loop = true;
     this.flipSound = new Audio(`assets/sounds/flip.wav`);
     this.matchSound = new Audio(`assets/sounds/match.wav`);
+    this.flipSound.volume = 0.5;
   }
   flip() {
     this.flipSound.play();
