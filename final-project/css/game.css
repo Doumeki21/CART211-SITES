@@ -162,8 +162,13 @@ a {
   z-index: 100;
 }
 
+.overlay-text-small {
+  font-size: 0.3em
+}
+
 .overlay-text.visible {
   display: flex;
+  flex-direction: column;
   animation: overlay-grow 800ms forwards;
 }
 
@@ -221,4 +226,15 @@ a {
 /* to make the hover work: backface of card-face needs to be hidden and card-front needs to start at rotateX(180deg) */
 .card-back:hover .bubbles {
   transform: scale(1);
+}
+
+@media (max-width: 800px) {
+  .game-container {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .game-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
