@@ -6,16 +6,20 @@
 
 /* So that there isn't random scrolling of empty spaces, but you won't be able to see all the info if there's too much. */
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: sans-serif;
   font-family: 'Comfortaa', cursive;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   font-size: 1em;
 }
 
+.insta {
+  max-width: 50px;
+  max-height: 50px;
+  padding-bottom: 5px;
+}
+
 header {
+  max-width: inherit;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -28,8 +32,8 @@ header {
 }
 
 nav {
-  /* overflow: hidden;
-  justify-content: space-between; */
+  overflow: hidden;
+  justify-content: space-between;
   min-height: 10vh;
   align-items: center;
   margin: auto;
@@ -56,6 +60,7 @@ a {
 }
 
 #contactPage {
+  height: 100vh;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -106,4 +111,10 @@ p {
   justify-content: center;
   height: 100vh;
   font-size: 1.1rem;
+}
+
+#creditsPage {
+  height: 100vh;
+  margin-left: 24%;
+  margin-right: 24%;
 }
