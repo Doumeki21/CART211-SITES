@@ -116,6 +116,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ff9a91;
+}
+
 .parallax-wrapper {
   height: 100vh;
   overflow-x: hidden;

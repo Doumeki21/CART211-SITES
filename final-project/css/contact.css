@@ -54,6 +54,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #d6a9a5;
+}
+
 /* So that the curosr is centered */
 #top {
   /* height: 1px; */
@@ -88,13 +92,13 @@ a {
 h2 {
   font-size: 4rem;
   padding-top: 15%;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   font-weight: bold;
   /* font-family: 'Roboto', sans-serif; */
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 150%;
   font-family: 'Poppins', sans-serif;
 }
@@ -108,7 +112,7 @@ p {
   margin-top: 5rem;
   text-align: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   font-size: 1.1rem;
 }
 
@@ -120,9 +124,10 @@ p {
 }
 
 h3 {
-  font-size: 1.5rem;
-  padding-top: 2rem;
+  font-size: 1.8rem;
+  padding-top: 1.5rem;
   padding-bottom: 0.8rem;
+  font-style: oblique;
 }
 
 li.ref {
