@@ -118,3 +118,15 @@ p {
   margin-left: 24%;
   margin-right: 24%;
 }
+
+h3 {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0.8rem;
+}
+
+li.ref {
+  font-size: 1.3rem;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+}
