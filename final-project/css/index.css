@@ -327,22 +327,39 @@ h3.menu-note {
 }
 
 #group-2 {
-  height: 200vh;
+  height: 300vh;
 }
 
-#history {
-  height: 250vh;
-  /* display: flex;
-  z-index: -1;
-  height: 420vh; */
-  text-align: center;
-  justify-content: center;
-  padding-top: 55%;
+#historySection {
+  margin-left: 22%;
+  margin-right: 22%;
+  height: 380vh;
+}
+
+#historySection h2 {
+  padding-top: 70%;
+  padding-bottom: 20%;
+}
+
+.history-1 {
+  line-height: 1.8;
+}
+
+.history-2 {
+  padding-top: 70%;
+  line-height: 1.8;
+}
+
+img.mascot {
+  /* margin-top: 5%; */
+  max-width: 20%;
+  /* border: solid 4px white; */
+  background-color: #0A1128;
 }
 
 #group-2 .mid-layer {
-  /* background-color: #0A1128; */
-  background-color: teal;
+  background-color: #0A1128;
+  /* background-color: teal; */
 }
 
 #outro {}
@@ -374,7 +391,7 @@ h2 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 150%;
   font-family: 'Poppins', sans-serif;
 }
