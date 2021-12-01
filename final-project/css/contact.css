@@ -91,7 +91,7 @@ a:hover {
 
 h2 {
   font-size: 4rem;
-  padding-top: 15%;
+  padding-top: 12%;
   padding-bottom: 1.5rem;
   font-weight: bold;
   /* font-family: 'Roboto', sans-serif; */
@@ -118,7 +118,7 @@ p {
 
 #creditsPage {
   margin-top: 5%;
-  height: 100vh;
+  height: 105vh;
   margin-left: 24%;
   margin-right: 24%;
 }
