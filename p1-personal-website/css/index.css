@@ -132,7 +132,7 @@ a:hover {
 /* Landing page text */
 .intro-screen {
   height: 100vh;
-  background: url("../assets/images/landing-page.jpg");
+  background: url("/assets/images/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: 1920px 1080px;
   background-color: #0A1128;
