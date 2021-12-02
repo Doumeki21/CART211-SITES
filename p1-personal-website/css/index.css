@@ -424,7 +424,7 @@ p {
   width: 10em;
   height: 5em;
   padding: 1em;
-  background-image: url("/assets/images/fortune.jpg");
+  background-image: url("../assets/images/fortune.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   box-shadow: 0 5px, 30px rgba(0, 0.30);
