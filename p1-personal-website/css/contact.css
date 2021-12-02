@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/* So that there isn't random scrolling of empty spaces, but you won't be able to see all the info if there's too much. */
+body {
+  /* overflow: hidden; */
+  font-family: sans-serif;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+}
+
+.insta {
+  max-width: 50px;
+  max-height: 50px;
+  padding-bottom: 5px;
+}
+
+header {
+  max-width: inherit;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+nav {
+  overflow: hidden;
+  justify-content: space-between;
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+  font-size: 1.6em;
+}
+
+.nav-links {
+  display: block;
+  /* justify-content: space-between; */
+  width: min-content;
+  list-style: none;
+  padding: 20px;
+  /* background-color: rgba(255, 240, 237, 0.5); */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d6a9a5;
+}
+
+/* So that the curosr is centered */
+#top {
+  /* height: 1px; */
+}
+
+#contactPage {
+  height: 100vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#contactSection {
+  /* margin-top:10vh; */
+  background: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  font-size: 4rem;
+  padding-top: 12%;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.credits{
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  /* width: 10%;
+  bottom: 5px; */
+  margin-top: 5rem;
+  text-align: center;
+  justify-content: center;
+  /* height: 100vh; */
+  font-size: 1.1rem;
+}
+
+#creditsPage {
+  margin-top: 5%;
+  height: 105vh;
+  margin-left: 24%;
+  margin-right: 24%;
+}
+
+h3 {
+  font-size: 1.8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.8rem;
+  font-style: oblique;
+}
+
+li.ref {
+  font-size: 1.3rem;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+}

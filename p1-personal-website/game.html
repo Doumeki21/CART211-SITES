@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Poppins font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Comfortaa -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Indie Flower -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/cursor.css">
+  <link rel="stylesheet" href="css/game.css">
+
+  <title>Collect Desserts</title>
+</head>
+
+<body>
+  <div id="parent">
+    <div id="logo">
+      <div>
+        <h1>tasti</h1>
+      </div>
+      <div><a class="contact" href="contact.html">Contact</a></div>
+    </div>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="game.html">Game</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <h1 class="game-title">Mix-or-Match</h1>
+
+      <div class="overlay-text visible">
+        Click to Start
+      </div>
+      <div id="game-over-text" class="overlay-text">
+        GAME OVER
+        <span class="overlay-text-small">Click to Restart</span>
+      </div>
+      <div id="victory-text" class="overlay-text">
+        VICTORY
+        <span class="overlay-text-small">Click to Restart</span>
+      </div>
+
+      <div class="game-container">
+        <div class="game-info-container">
+          <div class="game-info">
+            Time <span id="time-remaining">50</span>
+          </div>
+          <div class="game-info">
+            Flips <span id="flips">0</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-biscuit.png" alt="biscuits">
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-biscuit.png" alt="biscuits">
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-cupcake.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-cupcake.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-donut.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-donut.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-layer-cake.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-layer-cake.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-pie.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-pie.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-square-cake.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-square-cake.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-sugar-cookie.png" alt="biscuits">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-back card-face">
+            <img class="bubbles" src="assets/images/card-bubbles.png" alt="bubbles">
+          </div>
+          <div class="card-front card-face">
+            <img class="card-value" src="assets/images/cards-sugar-cookie.png" alt="biscuits">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="cursor" id="moveMe"></div>
+  <script src="js/cursor.js"></script>
+  <script src="js/game.js" async></script>
+
+</body>
+
+</html>

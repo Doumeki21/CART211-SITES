@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Poppins font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Comfortaa -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Indie Flower -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/cursor.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>Home</title>
+</head>
+
+<body>
+  <div id="parent">
+
+    <div id="loader-wrapper">
+      <span class="loader"><span class="loader-inner">
+          <h2 id="welcome-text"></h2>
+        </span></span>
+    </div>
+
+    <div id="index-wrapper">
+      <div id="logo">
+        <div>
+          <h1>tasti</h1>
+        </div>
+        <div><a class="contact" href="contact.html">Contact</a></div>
+      </div>
+      <header>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#group-2">About</a></li>
+            <li><a href="#about">Fortune</a></li>
+            <li><a href="game.html">Game</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="parallax-wrapper">
+        <div class="parallax-group intro-screen" id="home">
+          <h2 class="main-title">Got a confession? <br>
+          We got confections!</h2>
+
+          <div class="hero">
+        <div class="arrow">
+            Scroll Down
+          <span></span>
+        </div>
+          </div>
+        </div>
+
+        <div class="parallax-group" id="menu">
+          We give you <br> tasty emotions.
+          <div class="parallax-layer base-layer">
+            <h2 class="menu-title">Menu</h2>
+            <h3 class="menu-note">More<br>to come!</h3>
+            <div class="dish-1">
+              <img class="pudding" src="assets/images/pudding.jpg" alt="Pudding">
+              <p class="pun">"You dessert it!"</p>
+            </div>
+
+            <div class="dish-2">
+              <img class="cream-puff" src="assets/images/cream-puff.jpg" alt="Cream Puff">
+              <p class="pun">"We won't dessert you."</p>
+            </div>
+
+            <div class="dish-5">
+              <img class="square-cake" src="assets/images/square-cake.jpg" alt="Cream Puff">
+              <p class="pun">"Life's batter with cakes."</p>
+            </div>
+          </div>
+
+          <div class="parallax-layer mid-layer">
+            <div class="dish-3">
+              <img class="cake-roll" src="assets/images/cake-roll.jpg" alt="Cake Roll">
+              <p class="pun">"You're on a roll!"</p>
+            </div>
+
+            <div class="dish-4">
+              <img class="cookies" src="assets/images/cookies.jpg" alt="Cookies">
+              <p class="pun">"You're a sweet cookie."</p>
+            </div>
+
+            <div class="dish-6">
+              <img class="donut" src="assets/images/donut.jpg" alt="Donuts">
+              <p class="pun">"Donut worry."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="parallax-group" id="group-2">
+          <div class="parallax-layer mid-layer">
+            <section id="historySection">
+              <h2>Welcome to <em>Tasti</em>,<br>where human emotions<br>
+              are made into dessert!</h2>
+
+              <p class="history-1">Our bakery is special because of you. Humans are capable of such complex emotions, and for that, we exist. Each particular emotion such as nostalgia and fear has the potential to evolve into a popular dish in our bakery.</p>
+
+              <p class="history-2">How much money do we spirits make you ask? Well, we don’t! Our existence and baking ingredients depend heavily on the type of emotion a human feels and how often they experience that certain emotion. Suppose that many people are happy, then the more popular the "happy" menu will become. Whether it be happiness, sadness, excitement, or anger, there are dishes for all kinds of feelings.</p>
+            </section>
+          </div>
+          <div class="parallax-layer top-layer">
+            <img class="mascot" src="assets/images/mascot-1.png" alt="pink blob mascot.">
+          </div>
+        </div>
+
+        <div class="parallax-group outro-screen" id="about">
+          <div class="container" id="blur">
+            <section id="aboutSection">
+              <h2>The Great Man Theory...<br> Not quite!</h2>
+              <p>Our sole purpose in life depends on human emotions. We can't exist without all of you! So we created this bakery to honor YOUR existence.</p><br>
+
+              <p>Here's a souvenir as thanks for visitng our website!</p>
+
+              <a href="#" class="fortune">Fortune</a>
+              <!-- <div id="container">
+              <button id="btn">Testing array</button>
+              <div id="output">Press to generate</div>
+            </div> -->
+            </section>
+          </div>
+          <div id="popup">
+            <a href="#" class="fortune">x</a>
+            <div id="popup-text"></div>
+            <h2 class="fortune-title">Daily Fortune</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cursor" id="moveMe"></div>
+  </div>
+  <script src="js/cursor.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
