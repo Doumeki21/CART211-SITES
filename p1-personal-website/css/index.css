@@ -132,7 +132,7 @@ a:hover {
 /* Landing page text */
 .intro-screen {
   height: 100vh;
-  background: url(/assets/images/landing-page.jpg);
+  background: url("/assets/images/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: 1920px 1080px;
   background-color: #0A1128;
@@ -238,7 +238,7 @@ h3.menu-note {
   right: 35%;
   bottom: 28%;
   padding: 5%;
-  background-image: url(/assets/images/note.jpg);
+  background-image: url("/assets/images/note.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   font-family: 'Indie Flower', cursive;
